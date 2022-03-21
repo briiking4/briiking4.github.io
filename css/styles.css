@@ -6106,29 +6106,24 @@ a.close.disabled {
 
 .bg-about {
   background-color: #4c4177;
-  background-image: linear-gradient(0deg, #0c0800 0%, #d3a42c 74%);
-}
+background-image: linear-gradient(to bottom, #2e2412, #594418, #87671a, #b88c19, #ebb312)}
 
 .bg-exp {
   background-color: #e4b5cb;
-  background-image: linear-gradient(0deg, #0c0800 0%, #d3a42c 74%);
-}
+background-image: linear-gradient(to bottom, #ebb312, #ecb829, #eebe39, #efc347, #f1c854)}
 
 .bg-port{
   background-color: #fc5296;
-background-image: linear-gradient(0deg, #0c0800 0%, #d3a42c 74%);
-}
+background-image: linear-gradient(to bottom, #f1c854, #f1cc65, #f1d075, #f0d485, #f0d895);}
 
 .bg-contact{
   background-color: #ee8e6b;
-background-image: linear-gradient(0deg, #ee8e6b 0%, #b8547c 74%);
-
+background-image: linear-gradient(to bottom, #f0d895, #f3dfa6, #f7e6b8, #faedc9, #fdf4db);
 }
 
 .bg-foot{
   background-color: #ee8e6b;
-background-image: linear-gradient(0deg, #ee8e6b 0%, #ee8e6b 74%);
-}
+background-image: linear-gradient(to bottom, #fdf4db, #fff3e8, #fff5f6, #fffbff, #ffffff);}
 
 
 a.bg-primary:hover, a.bg-primary:focus,
