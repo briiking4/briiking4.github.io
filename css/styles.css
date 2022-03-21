@@ -65,8 +65,9 @@ body {
   line-height: 1.5;
   color: #fff;
   text-align: left;
-  background-color: #fff;
   overflow-x: hidden;
+  background: rgb(251,212,105);
+background: radial-gradient(circle, rgba(251,212,105,1) 0%, rgba(27,18,12,1) 50%);
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -6104,11 +6105,12 @@ a.close.disabled {
   vertical-align: text-top !important;
 }
 
-.bg-about {
-  background-color: #4c4177;
-background-image: linear-gradient(to bottom, #2e2412, #594418, #87671a, #b88c19, #ebb312)}
+/* .bg-about {
+  background: rgb(251,212,105);
+  background: radial-gradient(circle, rgba(251,212,105,1) 0%, rgba(27,18,12,1) 50%);
+} */
 
-.bg-exp {
+/* .bg-exp {
   background-color: #e4b5cb;
 background-image: linear-gradient(to bottom, #ebb312, #ecb829, #eebe39, #efc347, #f1c854)}
 
@@ -6119,11 +6121,11 @@ background-image: linear-gradient(to bottom, #f1c854, #f1cc65, #f1d075, #f0d485,
 .bg-contact{
   background-color: #ee8e6b;
 background-image: linear-gradient(to bottom, #f0d895, #f3dfa6, #f7e6b8, #faedc9, #fdf4db);
-}
+} */
 
-.bg-foot{
+/* .bg-foot{
   background-color: #ee8e6b;
-background-image: linear-gradient(to bottom, #fdf4db, #fff3e8, #fff5f6, #fffbff, #ffffff);}
+background-image: linear-gradient(to bottom, #fdf4db, #fff3e8, #fff5f6, #fffbff, #ffffff);} */
 
 
 a.bg-primary:hover, a.bg-primary:focus,
