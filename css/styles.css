@@ -10064,13 +10064,13 @@ hr.light {
 #mainNav .navbar-brand {
   font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
-  background: -webkit-linear-gradient(315deg, #03A9F4 0%, #673AB7 74%);
+  background: -webkit-linear-gradient(315deg, #0c0800 0%, #d3a42c 74%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
 
 #mainNav .navbar-nav .nav-item .nav-link {
-  background: -webkit-linear-gradient(315deg, #03A9F4 0%, #673AB7 74%);
+  background: -webkit-linear-gradient(315deg, #0c0800 0%, #d3a42c 74%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
