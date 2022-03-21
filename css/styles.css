@@ -67,7 +67,7 @@ body {
   text-align: left;
   overflow-x: hidden;
   background: rgb(251,212,105);
-background: radial-gradient(circle, rgba(251,212,105,1) 0%, rgba(27,18,12,1) 50%);
+  background: radial-gradient(circle, rgba(251,212,105,1) 0%, rgba(27,18,12,1) 50%);
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
