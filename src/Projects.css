@@ -1,0 +1,146 @@
+.projects-container {
+    padding: 20px;
+  }
+  
+  .projects-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .modal-header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .modal-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 15px;
+    color: white;
+  }
+
+  .modal-icon {
+    aspect-ratio: 1/1;
+    width: 13%;
+    border-radius: 8px;
+    background-color: #788395;
+    display: flex;
+    justify-content: center;
+  }
+
+
+  .modal-icon img{
+    object-fit: cover;
+    width:100%;
+    border-radius: 8px;
+  }
+  
+  
+  .header-icon {
+    aspect-ratio: 1/1;
+    width: 10%;
+    border-radius: 8px;
+    margin-right: 15px;
+  }
+
+  .header-icon img{
+    object-fit: cover;
+    width:100%;
+    border-radius: 8px;
+
+  }
+  
+  .header-title {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .project-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width:95%;
+  }
+  
+  .project-item {
+    display: flex;
+    align-items: center;
+    background-color: #6A7A8C;
+    border-radius: 8px;
+    padding: 10px;
+    transition: background-color 0.2s;
+    cursor: pointer;
+  }
+  
+  .project-item:hover {
+    background-color: #8493A5;
+  }
+  
+  .project-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+    object-fit: cover;
+    margin-right: 15px;
+  }
+  
+  .project-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .project-title {
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+  }
+  
+  .project-artist {
+    font-size: 0.9rem;
+    color: black;
+  }
+  
+  .modal-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    background-color: #505B6D;
+    box-shadow: 24px 24px 24px rgba(0, 0, 0, 0.25);
+    padding: 16px;
+    border:none;
+    outline:none;
+    border-radius: 10px;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .modal-box {
+      overflow-y: auto;
+      width: 80%;
+    }
+    .modal-title{
+      font-size: 1rem;
+    }
+
+    .header-title{
+      font-size:  1.3rem;;
+    }
+  }
+
+  .tech-main-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top:15px;
+    text-align: center;
+    justify-items: flex-start;
+  }
+
+  .tech-container{
+    background-color: #8595A6;
+    padding:10px;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-right: 15px;
+  }
