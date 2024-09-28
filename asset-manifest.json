@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.b0d6931e.css",
-    "main.js": "/static/js/main.744fad1f.js",
+    "main.css": "/static/css/main.24d7a85d.css",
+    "main.js": "/static/js/main.5e8edda2.js",
     "static/js/453.2c10b5af.chunk.js": "/static/js/453.2c10b5af.chunk.js",
     "static/media/Graze.pdf": "/static/media/Graze.3ff9a69517f218af5337.pdf",
     "static/media/profile-pic.png": "/static/media/profile-pic.4edf29c24dfe6a7fee7f.png",
@@ -24,12 +24,12 @@
     "static/media/python.svg": "/static/media/python.62e8a4442709e711eb8c89041804c775.svg",
     "static/media/jira-logo.svg": "/static/media/jira-logo.1b79d9d02350c124716652a3e72b8376.svg",
     "index.html": "/index.html",
-    "main.b0d6931e.css.map": "/static/css/main.b0d6931e.css.map",
-    "main.744fad1f.js.map": "/static/js/main.744fad1f.js.map",
+    "main.24d7a85d.css.map": "/static/css/main.24d7a85d.css.map",
+    "main.5e8edda2.js.map": "/static/js/main.5e8edda2.js.map",
     "453.2c10b5af.chunk.js.map": "/static/js/453.2c10b5af.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b0d6931e.css",
-    "static/js/main.744fad1f.js"
+    "static/css/main.24d7a85d.css",
+    "static/js/main.5e8edda2.js"
   ]
 }
