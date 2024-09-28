@@ -304,8 +304,8 @@ const Swiper = () => {
       title: 'Popular Media & the African American Experience',
       cover: thisisa,
       link: thisisapaper,
-      caption: 'Undergraduate Media Research Symposium',
-      description: (<>Presented media research at Loyola Marymount's Undergraduate Research Symposium. This paper highlights Black struggle in America through the work of the artist Donald Glover (Childish Gambino). One of the most impactful pieces of 2018, the music video for "This is America", addresses the Black experience through powerful metaphors and symbolism. By releasing the viral video on YouTube, Gambino demonstrated the power of social media to spark meaningful conversations about the contrast between popular media’s perception of Black culture and the realities of systematic violence and discrimination faced by African-Americans.</>) ,
+      caption: 'Media Research Symposium',
+      description: (<>Presented media research at Loyola Marymount's Research Symposium. This paper highlights Black struggle in America through the work of the artist Donald Glover (Childish Gambino). One of the most impactful pieces of 2018, the music video for "This is America", addresses the Black experience through powerful metaphors and symbolism. By releasing the viral video on YouTube, Gambino demonstrated the power of social media to spark meaningful conversations about the contrast between popular media’s perception of Black culture and the realities of systematic violence and discrimination faced by African-Americans.</>) ,
       tech: ["Culture and social media research"]
  
     },
@@ -368,7 +368,8 @@ const Swiper = () => {
             <div class="section">
               <h5 class="section-header">About the Artist</h5>
  
-              <p>As a user-obsessed Product Manager, I harness a versatile blend of technical acumen and a passion for the intersection of technology and entertainment media. With a B.S. in Information Systems and Business Analytics from Loyola Marymount University, my journey began as a Software Engineering Intern and advanced to an Associate Product Manager at a global start-up solving cross-cloud data sharing. Proficient in data analytics, cloud management systems, and full-stack software development, I excel in dynamic and technical environments, adeptly solving intricate business challenges through a blend of precise attention to detail and creativity.</p>
+              <p>As a user-obsessed Product Manager, I harness a versatile blend of technical acumen and a passion for the intersection of technology and entertainment media. With a B.S. in Information Systems and Business Analytics from Loyola Marymount University, my journey began as a Software Engineering Intern and advanced to an Associate Product Manager at a global start-up solving cross-cloud data sharing.</p>
+              <p style={{marginTop: "20px"}}>Proficient in data analytics, cloud management systems, and full-stack software development, I excel in dynamic and technical environments, adeptly solving intricate business challenges through a blend of precise attention to detail and creativity.</p>
               
               <h5 class="section-header section-two"> Discover On</h5>
               <div className="contacts">
