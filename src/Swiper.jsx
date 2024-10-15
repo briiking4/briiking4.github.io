@@ -368,8 +368,7 @@ const Swiper = () => {
             <div class="section">
               <h5 class="section-header">About the Artist</h5>
  
-              <p>As a user-obsessed Product Manager, I harness a versatile blend of technical acumen and a passion for the intersection of technology and entertainment media. With a B.S. in Information Systems and Business Analytics from Loyola Marymount University, my journey began as a Software Engineering Intern and advanced to an Associate Product Manager at a global start-up solving cross-cloud data sharing.</p>
-              <p style={{marginTop: "20px"}}>Proficient in data analytics, cloud management systems, and full-stack software development, I excel in dynamic and technical environments, adeptly solving intricate business challenges through a blend of precise attention to detail and creativity.</p>
+              <p>Product visionary with a technical background in computer science and data analysis, honed at Bobsled, a B2B cross-cloud data sharing SaaS startup valued at $87 million. Advanced from SWE intern to the second member of the product team, owning products like the API and Azure integration, crucial for Series A funding and achieving our OKR of five customers. As a hypothesis-driven PM, I excel in high-stakes environments, fostering collaboration to validate solutions. Seeking a PM role to create innovative products that uplift diverse voices, exemplified by my project Cleanify, which addresses accessible clean music options across varied environments.</p>
               
               <h5 class="section-header section-two"> Discover On</h5>
               <div className="contacts">
