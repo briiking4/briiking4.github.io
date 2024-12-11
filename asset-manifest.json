@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.24d7a85d.css",
-    "main.js": "/static/js/main.4c31f8c7.js",
+    "main.js": "/static/js/main.e8a1ce07.js",
     "static/js/453.2c10b5af.chunk.js": "/static/js/453.2c10b5af.chunk.js",
     "static/media/Graze.pdf": "/static/media/Graze.3ff9a69517f218af5337.pdf",
     "static/media/profile-pic.png": "/static/media/profile-pic.4edf29c24dfe6a7fee7f.png",
@@ -25,11 +25,11 @@
     "static/media/jira-logo.svg": "/static/media/jira-logo.1b79d9d02350c124716652a3e72b8376.svg",
     "index.html": "/index.html",
     "main.24d7a85d.css.map": "/static/css/main.24d7a85d.css.map",
-    "main.4c31f8c7.js.map": "/static/js/main.4c31f8c7.js.map",
+    "main.e8a1ce07.js.map": "/static/js/main.e8a1ce07.js.map",
     "453.2c10b5af.chunk.js.map": "/static/js/453.2c10b5af.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.24d7a85d.css",
-    "static/js/main.4c31f8c7.js"
+    "static/js/main.e8a1ce07.js"
   ]
 }
