@@ -10,10 +10,11 @@ const experiences = [
     company: 'Bobsled - Series A, cross-cloud data sharing start-up',
     duration: 'October 2022 - December 2023',
     bullets: [
-      'Led development of the Bobsled REST API, adapting to a primary audience shift toward software engineers; conducted user research to identify ETL integration needs; collaborated with engineering and design teams to validate a prototype; securing 5 major deals and opened avenues for million-dollar contracts with SaaS companies',
-      'Synthesized qualitative research from 10 API usability tests, leading a team to create a self-serve developer experience with OpenAI, reducing onboarding by 3 weeks and automating the API POC process for Sales',
-      'Developed a data type mapping system to translate non-self-describing file formats to data warehouses, eliminating lengthy data cleaning and saving 1 hour per data engineer per dataset, improving efficiency for DaaS companies with unstructured data',
-      'Led weekly sprint planning and daily backlog grooming for 2 cloud, 2 backend, and 3 front-end engineers; writing user stories and prioritizing with Scrum principals; attended standups with senior leadership to report on progress, blockers, and prioritize tasks'
+      'Led the ideation and launch of the critical REST API, driving strategic pivot to a software engineering target audience to enable SaaS market entry and securing a major deal with CARTO, automating 11,000+ data products',
+      'Developed self-serve API documentation, reducing onboarding time by 3 weeks and streamlining Sales demos through automated POCs', 
+      'Owned Azure products, following the Destination with Azure as a Source, securing 3 major deals that lead to the exceeding of acquisition OKRs. With 95% of Fortune 500 companies using Azure to store their data, this entry was crucial for Bobsled’s growth',  
+      'Facilitated sprint planning and backlog grooming, reducing cycle times by 60% through improved task breakdowns and team collaboration',
+      'Volunteered as a member of the internal team defining company values and culture'
     ],
     skills:["REST API", "Microsoft Azure", "Google Cloud Platform", "GitHub", "User Interviews", "Scrum", "Dovetail", "Figma"]
   },
@@ -23,10 +24,10 @@ const experiences = [
     company: 'Bobsled - Series A, cross-cloud data sharing start-up',
     duration: 'June 2022 - October 2022',
     bullets: [
-      'Devised a solution in Azure Blob Storage for secure data transfer, managing a team of 3 engineers to launch Azure object storage as a Bobsled Destination, enabling access to a market with 95% of Fortune 500 companies and closing a major early deal',
-      'Collaborated on weekly software releases with CTO and SRE, conducting end-to-end user acceptance testing for object storage using Google Cloud, Azure, and AWS CLI, and in data warehouses using Snowflake and Big Query SQL queries to ensure data integrity',
+      'Led the ideation and launch of Azure as a data destination with a team of 3 engineers, securing one of the first early adopter deals and opening significant market opportunities',   
+      'Developed a documentation website featuring over 100 technical articles, conducting extensive research and creating a framework inspired by the Diataxis model. Implemented a review, release, and feedback system that significantly improved user satisfaction and resource accessibility for the Solutions Engineering team',
       'Formulated a technical product documentation strategy, launching a website with 100+ articles, achieving an average 4/5 satisfaction score, a 3-minute reduction in sales call explanations, and an 80% drop in "easily resolvable issues"',
-      'Developed, tested, and reviewed code for front-end components in Remix Typescript as well as resolved and tracked client bugs in GitHub and Google Cloud Logging'
+      'Collaborated closely with the CTO to streamline the weekly release process, troubleshooting bugs and conducting end-to-end user acceptance testing to ensure seamless and reliable deployments'
     ],
     skills:["Remix", "Typescript", "Technical Documentation", "Microsoft Azure", "Google Cloud Platform","Git Hub", "User Interviews"]
 
