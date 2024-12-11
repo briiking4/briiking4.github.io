@@ -26,7 +26,6 @@ const experiences = [
     bullets: [
       'Led the ideation and launch of Azure as a data destination with a team of 3 engineers, securing one of the first early adopter deals and opening significant market opportunities',   
       'Developed a documentation website featuring over 100 technical articles, conducting extensive research and creating a framework inspired by the Diataxis model. Implemented a review, release, and feedback system that significantly improved user satisfaction and resource accessibility for the Solutions Engineering team',
-      'Formulated a technical product documentation strategy, launching a website with 100+ articles, achieving an average 4/5 satisfaction score, a 3-minute reduction in sales call explanations, and an 80% drop in "easily resolvable issues"',
       'Collaborated closely with the CTO to streamline the weekly release process, troubleshooting bugs and conducting end-to-end user acceptance testing to ensure seamless and reliable deployments'
     ],
     skills:["Remix", "Typescript", "Technical Documentation", "Microsoft Azure", "Google Cloud Platform","Git Hub", "User Interviews"]
