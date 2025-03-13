@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.24d7a85d.css",
-    "main.js": "/static/js/main.80addb5a.js",
+    "main.js": "/static/js/main.050f880e.js",
     "static/js/453.2c10b5af.chunk.js": "/static/js/453.2c10b5af.chunk.js",
     "static/media/Graze.pdf": "/static/media/Graze.3ff9a69517f218af5337.pdf",
     "static/media/profile-pic.png": "/static/media/profile-pic.4edf29c24dfe6a7fee7f.png",
@@ -15,7 +15,6 @@
     "static/media/radix-logo.png": "/static/media/radix-logo.15f5145bbd6d123e02ed.png",
     "static/media/html-css.png": "/static/media/html-css.7c6257989132ee906f4a.png",
     "static/media/brimix.png": "/static/media/brimix.b54abd88ed9a655b20ba.png",
-    "static/media/cleanify-logo.png": "/static/media/cleanify-logo.2a821f77f5b406f588e9.png",
     "static/media/TOP HITS.png": "/static/media/TOP HITS.ebd17afa19fc9beb366b.png",
     "static/media/thisisa.png": "/static/media/thisisa.a0515197fcb2d8214312.png",
     "static/media/Committo.png": "/static/media/Committo.f7c96937ac009e471bc0.png",
@@ -24,12 +23,13 @@
     "static/media/python.svg": "/static/media/python.62e8a4442709e711eb8c89041804c775.svg",
     "static/media/jira-logo.svg": "/static/media/jira-logo.1b79d9d02350c124716652a3e72b8376.svg",
     "index.html": "/index.html",
+    "static/media/auxmod_logo.svg": "/static/media/auxmod_logo.4fb44116b23c63fc52a06a3cf7aacd35.svg",
     "main.24d7a85d.css.map": "/static/css/main.24d7a85d.css.map",
-    "main.80addb5a.js.map": "/static/js/main.80addb5a.js.map",
+    "main.050f880e.js.map": "/static/js/main.050f880e.js.map",
     "453.2c10b5af.chunk.js.map": "/static/js/453.2c10b5af.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.24d7a85d.css",
-    "static/js/main.80addb5a.js"
+    "static/js/main.050f880e.js"
   ]
 }
