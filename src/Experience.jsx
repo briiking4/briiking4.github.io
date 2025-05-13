@@ -8,25 +8,27 @@ const experiences = [
     time: '0:00',
     title: 'Associate Product Manager',
     company: 'Bobsled - Series A, cross-cloud data sharing start-up',
-    duration: 'October 2022 - December 2023',
+    duration: 'August 2022 - December 2023',
     bullets: [
-      'Led the ideation and launch of the critical REST API, driving strategic pivot to a software engineering target audience to enable SaaS market entry and securing a major deal with CARTO, automating 11,000+ data products',
-      'Developed self-serve API documentation, reducing onboarding time by 3 weeks and streamlining Sales demos through automated POCs', 
-      'Owned Azure products, following the Destination with Azure as a Source, securing 3 major deals that lead to the exceeding of acquisition OKRs. With 95% of Fortune 500 companies using Azure to store their data, this entry was crucial for Bobsled’s growth',  
-      'Facilitated sprint planning and backlog grooming, reducing cycle times by 60% through improved task breakdowns and team collaboration',
-      'Volunteered as a member of the internal team defining company values and culture'
+      'Owned REST API from concept to launch, transforming a no-code solution into an API, advocating for the new developer audience in product decisions. Enabled Bobsled’s pivot to SaaS, securing CARTO as the first client and automating 11K+ data products',
+      'Created a Postman workspace and guide to streamline API QA testing and onboarding for cross-functional teams with varying technical expertise, enhancing collaboration, enabling POC client demos, and reducing E2E testing time in half', 
+      'Launched self-serve OpenAI API documentation based on market research and 10 usability tests, reducing user implementation time by 3 weeks, and enhancing client demos with personalized experience',  
+      'Researched and collaborated with engineering to design two secure data access solutions for Azure integrations, enabling the launch of Azure as a Source. Partnered with Design to create a key rotation and service account management interface,expanding customer reach to 95% of Fortune 500 companies',
+      'Conducted user interviews and analyzed activity data to discover patterns in repetitive data transfers, leading to the prioritization of a ’data products’ feature. Collaborated closely with design to develop and A/B test a centralized control plane for users to define and manage data products, eliminating redundant tasks',
+      'Tailored Scrum practices for a small, fast-paced team with weekly releases. Created company-wide templates for user stories, acceptance criteria, and PRDs, boosting collaboration and cutting cycle times by 60% across 5+ projects for a 7-engineer team'
     ],
     skills:["REST API", "Microsoft Azure", "Google Cloud Platform", "GitHub", "User Interviews", "Scrum", "Dovetail", "Figma"]
   },
   {
     time: '1:00',
-    title: 'Graduate Software Engineering Intern',
+    title: 'Graduate Software Engineer',
     company: 'Bobsled - Series A, cross-cloud data sharing start-up',
-    duration: 'June 2022 - October 2022',
+    duration: 'June 2022 - August 2022',
     bullets: [
-      'Led the ideation and launch of Azure as a data destination with a team of 3 engineers, securing one of the first early adopter deals and opening significant market opportunities',   
-      'Developed a documentation website featuring over 100 technical articles, conducting extensive research and creating a framework inspired by the Diataxis model. Implemented a review, release, and feedback system that significantly improved user satisfaction and resource accessibility for the Solutions Engineering team',
-      'Collaborated closely with the CTO to streamline the weekly release process, troubleshooting bugs and conducting end-to-end user acceptance testing to ensure seamless and reliable deployments'
+      'Led a team of 3 engineers to launch Azure as a Destination, solving critical Azure AD limitations by balancing internal, client, and end-user security requirements. Collaborated with design to create an intuitive UX for client and end-user access management, which empowered customers to expand their reach to a large market of data consumers on Azure',   
+      'Presented a comprehensive plan to the CEO for a technical product documentation strategy, launching a user-facing website with 100+ articles (4.5/5 avg. satisfaction) and a cross-functional review, release, and feedback system',
+      'Translated Figma wireframes into actionable user stories and wrote detailed engineering tickets. Led weekly sprint planning, presenting to senior leaders and driving feature execution in the absence of a dedicated product team',
+      'Developed front-end components using Remix (TS) and Material UI; collaborated with CTO on weekly software releases, diagnosing test failures and reducing average failures by 40% through Cypress test improvements'
     ],
     skills:["Remix", "Typescript", "Technical Documentation", "Microsoft Azure", "Google Cloud Platform","Git Hub", "User Interviews"]
 

@@ -37,7 +37,7 @@ import agileLogo from "./assets/agile-logo.png";
 import dovetailLogo from "./assets/dovetail-logo.png";
 import jiraLogo from "./assets/jira-logo.svg";
 
-import cleanifyLogo from "./assets/cleanify-logo.png";
+import auxmod_logo from "./assets/auxmod_logo.svg";
 import graze from "./assets/Graze.png";
 import committo from "./assets/Committo.png";
 import radixLogo from "./assets/radix-logo.png";
@@ -255,16 +255,48 @@ const Swiper = () => {
   const projectsList = [
     {
       id: 1,
-      title: 'Cleanify',
-      cover: cleanifyLogo,
-      link: 'https://briiking4.github.io/cleanify/',
+      title: 'auXmod',
+      cover: auxmod_logo,
+      link: 'https://auxmod.netlify.app/',
       caption: 'Web Application',
-      description: (<>Cleanify offers an appropriate listening experience for all ages and audiences through providing tools to filter explicit music content.<span style={{marginTop:'15px', display: 'block' }}></span> 
-      <span style={{marginTop:'15px', display: 'flex', fontWeight: 'bold', }}>Version 1</span>
-      Developed a web app enabling users to create clean versions of explicit playlists, enhancing the experience for Spotify listeners in sensitive environments. <span style={{marginTop:'15px', display: 'block' }}></span>
-      <span style={{marginTop:'15px', display: 'flex', fontWeight: 'bold'}}>Version 2 (coming soon) <a href="https://docs.google.com/presentation/d/1rKp72_P_QHRQrYnFaUPzYYvUS7sI7Vz0-m8rRafx_Aw/pub?start=false&loop=false&delayms=10000" target="_blank" style={{marginLeft:'15px'}}><OpenInNewIcon/></a></span>
-      V2 utilizes Google’s Natural Language Processing to accurately identify mis-tagged explicit content through lyric sentiment analysis and moderation, empowering users to define their own standards of music appropriateness.
-</>),
+      description: (<>
+              <p style={{fontWeight:'bold'}}>
+                      What is it?
+              </p>
+              <p>
+                AuXmod is an app for playlist moderation, ensuring your playlists are safe for sensitive environments like
+                retail stores, cafés, workplaces, and schools. It helps curate playlists free from explicit content while 
+                preserving the music experience.
+              </p>
+
+              <p style={{fontWeight:'bold'}}>
+                Who is it for?
+              </p>
+              <p >
+                The app is designed for business owners, educators, parents, and anyone managing public or shared 
+                spaces who want to maintain a family-friendly or professional atmosphere without compromising on music
+                quality.
+              </p>
+
+              <p style={{fontWeight:'bold'}} >
+                What does it do?
+              </p>
+              <p >
+                Filter out and flag songs in any Spotify playlist containing profanity, violence, and/or sexual themes. If you 
+                select the "Profanity" filter, auXmod will swap out clean or radio versions of songs. Your original playlist 
+                remains untouched—auXmod creates a new, filtered version based on your selected preferences. You may choose 
+                to add back songs that were excluded if you decide they fit the playlist.
+              </p>
+              
+              <p style={{fontWeight:'bold'}} >
+                What it does not do:
+              </p>
+              <p >
+                auXmod does not create clean versions of songs. It moderates existing playlists and filters out unwanted content.
+                It won't alter or censor songs directly but will help you find clean versions when they exist.
+              </p>
+
+      </>),
       tech: ["React", "Spotify API", "Google Natural Language AI", "GitHub", "Node", "Figma"]
       
     },
@@ -341,19 +373,19 @@ const Swiper = () => {
               </div>
               <div class="profile-info">  
                 <h3 class="profile-name">Briana King</h3>    
-                <h5 class="profile-position">Product Manager</h5>
+                <h5 class="profile-position">Product Builder</h5>
                 <div class="profile-sub-info">
                   <div class="school-container">
                     <SchoolIcon/> 
                     <div class="profile-row-details">
-                      <p>Loyola Marymount University - Class of 2022</p>  
+                      <p>Loyola Marymount University</p>  
                       <p>B.S, Information Systems and Business Analytics</p>
                     </div>
                   </div>
                   <div class="profile-location">
                     <LocationOnIcon/>
                     <div class="profile-row-details">
-                      <p>Los Angeles, CA</p>
+                      <p>New York City, NY</p>
                     </div>
                   </div>    
                   <div class="email">
@@ -368,7 +400,11 @@ const Swiper = () => {
             <div class="section">
               <h5 class="section-header">About the Artist</h5>
  
-              <p>Product visionary with a technical background in computer science and data analysis, honed at Bobsled, a B2B cross-cloud data sharing SaaS startup valued at $87 million. Advanced from SWE intern to the second member of the product team, owning products like the API and Azure integration, crucial for Series A funding and achieving our OKR of five customers. As a hypothesis-driven PM, I excel in high-stakes environments, fostering collaboration to validate solutions. Seeking a PM role to create innovative products that uplift diverse voices, exemplified by my project Cleanify, which addresses accessible clean music options across varied environments.</p>
+              <p>I'm a product builder with a foundation in computer science and data analysis, sharpened as an early hire at Bobsled—a cross-cloud data-sharing startup valued at $87M. I started as a software engineer and transitioned into product as the first PM supporting the new Head of Product. I led critical launches like our REST API and Azure integration, which helped secure our first five customers and directly contributed to our Series A raise.
+
+I operate at the intersection of UX, engineering, and product strategy, with a strong bias toward action—whether that means running user interviews, validating hypotheses, collaborating cross-functionally to iterate fast, or jumping in to code when needed.
+
+I am the creator of auXmod, a third-party Spotify tool that filters explicit music for schools, events, and workplaces—designed to serve the needs of diverse audiences. I’m driven to build inclusive, impactful products that improve everyday life.</p>
               
               <h5 class="section-header section-two"> Discover On</h5>
               <div className="contacts">
