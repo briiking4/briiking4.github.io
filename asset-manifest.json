@@ -1,11 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.24d7a85d.css",
-    "main.js": "/static/js/main.40bf6a16.js",
+    "main.css": "/static/css/main.29491bc4.css",
+    "main.js": "/static/js/main.12fb8ac8.js",
     "static/js/453.2c10b5af.chunk.js": "/static/js/453.2c10b5af.chunk.js",
     "static/media/Graze.pdf": "/static/media/Graze.3ff9a69517f218af5337.pdf",
-    "static/media/profile-pic.png": "/static/media/profile-pic.4edf29c24dfe6a7fee7f.png",
-    "static/media/thisisbri.png": "/static/media/thisisbri.224882e8a465326d72aa.png",
+    "static/media/profile-pic.png": "/static/media/profile-pic.b7b6adfc859beb54a8a0.png",
     "static/media/azure-logo.png": "/static/media/azure-logo.9b642f842eaa56643ea4.png",
     "static/media/TIA-paper.pdf": "/static/media/TIA-paper.cc8208dca8b276f2eef7.pdf",
     "static/media/figma-logo.png": "/static/media/figma-logo.90eb21ce643748e3b320.png",
@@ -14,8 +13,8 @@
     "static/media/sql-logo.png": "/static/media/sql-logo.7f7045d239b1d173a582.png",
     "static/media/radix-logo.png": "/static/media/radix-logo.15f5145bbd6d123e02ed.png",
     "static/media/html-css.png": "/static/media/html-css.7c6257989132ee906f4a.png",
-    "static/media/brimix.png": "/static/media/brimix.b54abd88ed9a655b20ba.png",
-    "static/media/TOP HITS.png": "/static/media/TOP HITS.ebd17afa19fc9beb366b.png",
+    "static/media/brimix.png": "/static/media/brimix.a1643407d11816044a92.png",
+    "static/media/TOP HITS.png": "/static/media/TOP HITS.1b93910c1bc7237160b7.png",
     "static/media/thisisa.png": "/static/media/thisisa.a0515197fcb2d8214312.png",
     "static/media/Committo.png": "/static/media/Committo.f7c96937ac009e471bc0.png",
     "static/media/gmail.png": "/static/media/gmail.d765005ce9d4caa3d69e.png",
@@ -24,12 +23,12 @@
     "static/media/jira-logo.svg": "/static/media/jira-logo.1b79d9d02350c124716652a3e72b8376.svg",
     "index.html": "/index.html",
     "static/media/auxmod_logo.svg": "/static/media/auxmod_logo.4fb44116b23c63fc52a06a3cf7aacd35.svg",
-    "main.24d7a85d.css.map": "/static/css/main.24d7a85d.css.map",
-    "main.40bf6a16.js.map": "/static/js/main.40bf6a16.js.map",
+    "main.29491bc4.css.map": "/static/css/main.29491bc4.css.map",
+    "main.12fb8ac8.js.map": "/static/js/main.12fb8ac8.js.map",
     "453.2c10b5af.chunk.js.map": "/static/js/453.2c10b5af.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.24d7a85d.css",
-    "static/js/main.40bf6a16.js"
+    "static/css/main.29491bc4.css",
+    "static/js/main.12fb8ac8.js"
   ]
 }
