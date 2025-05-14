@@ -92,6 +92,7 @@ const Experience = () => {
                 className={`progress-segment ${activeExperience === index ? 'active' : ''}`}
                 onMouseEnter={() => handleMouseEvent(index,'enter')}
                 onMouseLeave={() => handleMouseEvent(index, 'leave')}
+                onClick={() =>handleMouseEvent(index,'enter') }
             >
                 <span className="time-marker">{experience.time}</span>
                 <div className="circle"></div>
