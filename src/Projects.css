@@ -62,12 +62,13 @@
     flex-direction: column;
     gap: 15px;
     width:95%;
+    padding-top:2rem;
   }
   
   .project-item {
     display: flex;
     align-items: center;
-    background-color: #6A7A8C;
+    background: rgba(255, 255, 255, 0.2); /* just enough to lighten */
     border-radius: 8px;
     padding: 10px;
     transition: background-color 0.2s;
@@ -75,7 +76,7 @@
   }
   
   .project-item:hover {
-    background-color: #8493A5;
+    background: rgba(255, 255, 255, 0.4); /* just enough to lighten */
   }
   
   .project-image {
@@ -98,7 +99,6 @@
   
   .project-artist {
     font-size: 0.9rem;
-    color: black;
   }
   
   .modal-box {
@@ -118,7 +118,8 @@
   @media only screen and (max-width: 600px) {
     .modal-box {
       overflow-y: auto;
-      width: 80%;
+      width: 85%;
+      max-height:700px;
     }
     .modal-title{
       font-size: 1rem;

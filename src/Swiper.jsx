@@ -43,7 +43,7 @@ import committo from "./assets/Committo.png";
 import radixLogo from "./assets/radix-logo.png";
 import thisisa from "./assets/thisisa.png";
 
-import thisisbri from "./assets/thisisbri.png"
+import thisisbri from "./assets/profile-pic.png"
 import thisisapaper from "./assets/TIA-paper.pdf";
 import grazedeck from "./assets/Graze.pdf";
 
@@ -286,14 +286,6 @@ const Swiper = () => {
                 select the "Profanity" filter, auXmod will swap out clean or radio versions of songs. Your original playlist 
                 remains untouched—auXmod creates a new, filtered version based on your selected preferences. You may choose 
                 to add back songs that were excluded if you decide they fit the playlist.
-              </p>
-              
-              <p style={{fontWeight:'bold'}} >
-                What it does not do:
-              </p>
-              <p >
-                auXmod does not create clean versions of songs. It moderates existing playlists and filters out unwanted content.
-                It won't alter or censor songs directly but will help you find clean versions when they exist.
               </p>
 
       </>),
