@@ -25,7 +25,7 @@
     aspect-ratio: 1/1;
     width: 13%;
     border-radius: 8px;
-    background-color: #788395;
+    background-color: #577383;
     display: flex;
     justify-content: center;
   }
@@ -68,7 +68,7 @@
   .project-item {
     display: flex;
     align-items: center;
-    background: rgba(255, 255, 255, 0.2); /* just enough to lighten */
+    background: rgba(255, 255, 255, 0.2);
     border-radius: 8px;
     padding: 10px;
     transition: background-color 0.2s;
@@ -76,7 +76,7 @@
   }
   
   .project-item:hover {
-    background: rgba(255, 255, 255, 0.4); /* just enough to lighten */
+    background: rgba(255, 255, 255, 0.4);
   }
   
   .project-image {
@@ -107,7 +107,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     width: 70%;
-    background-color: #505B6D;
+    background-color: #32485c;
     box-shadow: 24px 24px 24px rgba(0, 0, 0, 0.25);
     padding: 16px;
     border:none;
@@ -140,7 +140,7 @@
   }
 
   .tech-container{
-    background-color: #8595A6;
+    background-color: #577383;
     padding:10px;
     border-radius: 10px;
     margin-top: 15px;
