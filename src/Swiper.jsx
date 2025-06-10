@@ -258,6 +258,7 @@ const Swiper = () => {
       title: 'auXmod',
       cover: auxmod_logo,
       link: 'https://auxmod.netlify.app/',
+      video_link: 'https://vimeo.com/1092249739?share=copy',
       caption: 'Web Application',
       description: (<>
               <p style={{fontWeight:'bold'}}>

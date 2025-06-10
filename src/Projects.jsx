@@ -8,7 +8,7 @@ import { experimentalStyled as styled } from '@mui/material/styles';
 import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid2';
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
-
+import VideocamIcon from '@mui/icons-material/Videocam';
 import tophits from "./assets/TOP HITS.png"
 
 
@@ -74,7 +74,12 @@ const Projects = ({ projectsList }) => {
                     <img src={selectedProject.cover}></img>
                 </div>
                 <h2 className="modal-title">{selectedProject.title}</h2>
-                <a href={selectedProject.link} target="_blank" ><OpenInNewIcon/></a>
+                <a style={{ color:'white'}} href={selectedProject.link} target="_blank" ><OpenInNewIcon/></a>
+                {
+                  selectedProject.video_link &&
+                  <a style={{marginLeft: '10px', color:'white', }} href={selectedProject.video_link} target="_blank" ><VideocamIcon/></a>
+
+                }
             </div>
             <Typography id="modal-description" sx={{ mt: 2 }}>
               {selectedProject.description}

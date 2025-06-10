@@ -30,7 +30,8 @@
   }
   
   .progress-segment.active {
-    background-color: #0b1e32; 
+    background-color: #0b1e32;
+
   }
   
   .time-marker {
@@ -44,7 +45,6 @@
   }
   
   .experience-details {
-    /* background-color: #6A7A8C; */
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
@@ -64,7 +64,7 @@
   
   .experience-details p {
     font-size: 14px;
-    color: #0b1e32;
+    color: white;
     font-weight: bold;
   }
   

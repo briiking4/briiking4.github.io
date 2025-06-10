@@ -94,6 +94,8 @@ const Experience = () => {
                 onMouseLeave={() => handleMouseEvent(index, 'leave')}
                 onClick={() =>handleMouseEvent(index,'enter') }
             >
+
+                
                 <span className="time-marker">{experience.time}</span>
                 <div className="circle"></div>
             </div>
