@@ -8,7 +8,7 @@ const experiences = [
     time: '0:00',
     title: 'Associate Product Manager',
     company: 'Bobsled - Series A, cross-cloud data sharing start-up',
-    duration: 'August 2022 - December 2023',
+    duration: 'August 2022 - January 2024',
     bullets: [
       'Owned REST API from concept to launch, transforming a no-code solution into an API, advocating for the new developer audience in product decisions. Enabled Bobsled’s pivot to SaaS, securing CARTO as the first client and automating 11K+ data products',
       'Created a Postman workspace and guide to streamline API QA testing and onboarding for cross-functional teams with varying technical expertise, enhancing collaboration, enabling POC client demos, and reducing E2E testing time in half', 
