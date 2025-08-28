@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e7e0da8f.css",
-    "main.js": "/static/js/main.8095bc0a.js",
+    "main.js": "/static/js/main.383d029f.js",
     "static/js/453.2c10b5af.chunk.js": "/static/js/453.2c10b5af.chunk.js",
     "static/media/Graze.pdf": "/static/media/Graze.3ff9a69517f218af5337.pdf",
     "static/media/profile-pic.png": "/static/media/profile-pic.b7b6adfc859beb54a8a0.png",
@@ -15,6 +15,7 @@
     "static/media/html-css.png": "/static/media/html-css.7c6257989132ee906f4a.png",
     "static/media/brimix.png": "/static/media/brimix.a1643407d11816044a92.png",
     "static/media/TOP HITS.png": "/static/media/TOP HITS.1b93910c1bc7237160b7.png",
+    "static/media/sbc-logo.png": "/static/media/sbc-logo.69dbeba248f491bbeaea.png",
     "static/media/thisisa.png": "/static/media/thisisa.a0515197fcb2d8214312.png",
     "static/media/Committo.png": "/static/media/Committo.f7c96937ac009e471bc0.png",
     "static/media/gmail.png": "/static/media/gmail.d765005ce9d4caa3d69e.png",
@@ -24,11 +25,11 @@
     "static/media/jira-logo.svg": "/static/media/jira-logo.1b79d9d02350c124716652a3e72b8376.svg",
     "static/media/auxmod_logo.svg": "/static/media/auxmod_logo.4fb44116b23c63fc52a06a3cf7aacd35.svg",
     "main.e7e0da8f.css.map": "/static/css/main.e7e0da8f.css.map",
-    "main.8095bc0a.js.map": "/static/js/main.8095bc0a.js.map",
+    "main.383d029f.js.map": "/static/js/main.383d029f.js.map",
     "453.2c10b5af.chunk.js.map": "/static/js/453.2c10b5af.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e7e0da8f.css",
-    "static/js/main.8095bc0a.js"
+    "static/js/main.383d029f.js"
   ]
 }
