@@ -6,6 +6,19 @@ import brimix from "./assets/brimix.png";
 const experiences = [
   {
     time: '0:00',
+    title: 'Freelance Web Designer & Developer',
+    company: 'Spectrum Behavioral Care / Digital Standout Marketing',
+    duration: 'July 2025 -  Present',
+    bullets: [
+      'Led end-to-end redesign and migration from Wix to WordPress, partnering with the client and marketing firm to align on business and SEO goals aimed at doubling conversions from both paid and organic traffic',
+      'Designed and developed responsive layouts for the main website and ad landing page, created a child theme for advanced customization, and implemented dynamic content using Advanced Custom Fields (ACF)', 
+      'Installed and configured Yoast SEO, migrated metadata, and optimized images for faster load times and improved rankings, targeting an increase in organic traffic from 21 to 100+ monthly users and a CTR rise from 1.44% to over 3%',  
+      'Maintained tight communication and project leadership across client and marketing teams, ensuring alignment with strategic goals and stakeholders through detailed documentation',
+    ],
+    skills:["WordPress", "Advanced Custom Fields (ACF)", "Yoast SEO", "Figma"]
+  },
+  {
+    time: '1:00',
     title: 'Associate Product Manager',
     company: 'Bobsled - Series A, cross-cloud data sharing start-up',
     duration: 'August 2022 - January 2024',
@@ -20,7 +33,7 @@ const experiences = [
     skills:["REST API", "Microsoft Azure", "Google Cloud Platform", "GitHub", "User Interviews", "Scrum", "Dovetail", "Figma"]
   },
   {
-    time: '1:00',
+    time: '2:00',
     title: 'Graduate Software Engineer',
     company: 'Bobsled - Series A, cross-cloud data sharing start-up',
     duration: 'June 2022 - August 2022',
@@ -34,7 +47,7 @@ const experiences = [
 
   },
   {
-    time: '2:00',
+    time: '3:00',
     title: 'Financial Planning & Analysis Intern - Media Tech',
     company: 'NBC Universal',
     duration: 'September 2019 - May 2020',

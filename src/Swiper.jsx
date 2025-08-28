@@ -54,6 +54,8 @@ import medium from "./assets/medium.png";
 
 import tophits from "./assets/TOP HITS.png";
 import brimix from "./assets/brimix.png";
+import sbc from "./assets/sbc-logo.png";
+
 
 
 
@@ -259,7 +261,7 @@ const Swiper = () => {
       cover: auxmod_logo,
       link: 'https://auxmod.netlify.app/',
       video_link: 'https://vimeo.com/1092249739?share=copy',
-      caption: 'Web Application',
+      caption: 'Web Application - 2024',
       description: (<>
               <p style={{fontWeight:'bold'}}>
                       What is it?
@@ -295,10 +297,27 @@ const Swiper = () => {
     },
     {
       id: 2,
+      title: 'Spectrum Behavioral Care Website',
+      cover: sbc,
+      link: "https://spectrumbehavioralcare.com",
+      caption: 'Freelance Web Development - 2025',
+      description: (<>
+        <p style={{marginBottom:'15px'}}>
+          Led end-to-end redesign and migration from Wix to WordPress, partnering with the client and marketing firm to align on business and SEO goals aimed at doubling conversions from both paid and organic traffic
+        </p>
+        <li>Designed and developed responsive layouts for the main website and ad landing page, created a child theme for advanced customization, and implemented dynamic content using Advanced Custom Fields (ACF)</li>
+        <li>Installed and configured Yoast SEO, migrated metadata, and optimized images for faster load times and improved rankings, targeting an increase in organic traffic from 21 to 100+ monthly users and a CTR rise from 1.44% to over 3%</li>
+        <li>Maintained tight communication and project leadership across client and marketing teams, ensuring alignment with strategic goals and stakeholders through detailed documentation</li>
+      </>),
+      tech: ["WordPress", "Advanced Custom Fields (ACF)", "Yoast SEO", "Figma"]
+      
+    },
+    {
+      id: 3,
       title: 'Radix Dance Team Website',
       cover: radixLogo,
       link: 'https://radix-9544c.firebaseapp.com/',
-      caption: 'Web Application',
+      caption: 'Freelance Web Development - 2020',
       description: (<>
       <p style={{marginBottom:'15px'}}>Developed and designed full stack website for Loyola Marymount University's dance team, Radix, to grow the on campus dance community</p>
       <li>Increased dance event attendence by about 10%</li>
@@ -309,31 +328,31 @@ const Swiper = () => {
       tech: ["React", "Youtube API", "Google Firebase", "Node", "Figma"]
       
     },
-    {
-      id: 3,
-      title: 'Graze',
-      cover: graze,
-      link: grazedeck,
-      caption: '1st place - Tech Stars Startup Competition',
-      description: (<>
-        <p style={{marginBottom: '15px'}}>Graze is a B2B food delivery app for high volume orders, specializing in customizing corporate office'</p>
+    // {
+    //   id: 4,
+    //   title: 'Graze',
+    //   cover: graze,
+    //   link: grazedeck,
+    //   caption: '1st place - Tech Stars Startup Competition',
+    //   description: (<>
+    //     <p style={{marginBottom: '15px'}}>Graze is a B2B food delivery app for high volume orders, specializing in customizing corporate office'</p>
 
-        <li>Developed 1st place start-up business in 54 hours with team of 3</li>
-        <li>In charge of market research and user validation - conducting surveys and holding focus group sessions</li>
-        <li>Acted as design and technical lead, creating user journey wireframes and prototype using Figma</li>
-      </>),
-      tech: ["Figma", "User interviews", "Start-up"]    
-    },
-    {
-      id: 4,
-      title: 'Popular Media & the African American Experience',
-      cover: thisisa,
-      link: thisisapaper,
-      caption: 'Media Research Symposium',
-      description: (<>Presented media research at Loyola Marymount's Research Symposium. This paper highlights Black struggle in America through the work of the artist Donald Glover (Childish Gambino). One of the most impactful pieces of 2018, the music video for "This is America", addresses the Black experience through powerful metaphors and symbolism. By releasing the viral video on YouTube, Gambino demonstrated the power of social media to spark meaningful conversations about the contrast between popular media’s perception of Black culture and the realities of systematic violence and discrimination faced by African-Americans.</>) ,
-      tech: ["Culture and social media research"]
+    //     <li>Developed 1st place start-up business in 54 hours with team of 3</li>
+    //     <li>In charge of market research and user validation - conducting surveys and holding focus group sessions</li>
+    //     <li>Acted as design and technical lead, creating user journey wireframes and prototype using Figma</li>
+    //   </>),
+    //   tech: ["Figma", "User interviews", "Start-up"]    
+    // },
+    // {
+    //   id: 5,
+    //   title: 'Popular Media & the African American Experience',
+    //   cover: thisisa,
+    //   link: thisisapaper,
+    //   caption: 'Media Research Symposium',
+    //   description: (<>Presented media research at Loyola Marymount's Research Symposium. This paper highlights Black struggle in America through the work of the artist Donald Glover (Childish Gambino). One of the most impactful pieces of 2018, the music video for "This is America", addresses the Black experience through powerful metaphors and symbolism. By releasing the viral video on YouTube, Gambino demonstrated the power of social media to spark meaningful conversations about the contrast between popular media’s perception of Black culture and the realities of systematic violence and discrimination faced by African-Americans.</>) ,
+    //   tech: ["Culture and social media research"]
  
-    },
+    // },
   ];
 
   function showSkills(list, type) {
@@ -393,11 +412,11 @@ const Swiper = () => {
             <div class="section">
               <h5 class="section-header">About the Artist</h5>
  
-              <p>I'm a product builder with a foundation in computer science and data analysis, sharpened as an early hire at Bobsled—a cross-cloud data-sharing startup valued at $87M. I started as a software engineer and transitioned into product as the first PM supporting the new Head of Product. I led critical launches like our REST API and Azure integration, which helped secure our first five customers and directly contributed to our Series A raise.
+              <p style={{marginBottom: "10px"}}>I'm a product builder with a foundation in computer science and data analysis, sharpened as an early hire at Bobsled, a cross-cloud data-sharing startup valued at $87M. I started as a software engineer and transitioned into product as the first PM supporting the new Head of Product. I led critical launches like our REST API and Azure integration, which helped secure our first five customers and directly contributed to our Series A raise.</p>
 
-I operate at the intersection of UX, engineering, and product strategy, with a strong bias toward action—whether that means running user interviews, validating hypotheses, collaborating cross-functionally to iterate fast, or jumping in to code when needed.
+<p style={{marginBottom: "10px"}}>Alongside startup experience, I’ve freelanced as a web developer, building custom sites and tools for small businesses and organizations.</p>
 
-I am the creator of auXmod, a third-party Spotify tool that filters explicit music for schools, events, and workplaces—designed to serve the needs of diverse audiences. I’m driven to build inclusive, impactful products that improve everyday life.</p>
+<p>Additionally, I am the creator of auXmod, a third-party Spotify tool that filters explicit music for schools, events, and workplaces, designed to serve the needs of diverse audiences. I’m driven to build inclusive, impactful products that improve everyday life.</p>
               
               <h5 class="section-header section-two"> Discover On</h5>
               <div className="contacts">
