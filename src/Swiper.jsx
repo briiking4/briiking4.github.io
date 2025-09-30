@@ -305,9 +305,11 @@ const Swiper = () => {
         <p style={{marginBottom:'15px'}}>
           Led end-to-end redesign and migration from Wix to WordPress, partnering with the client and marketing firm to align on business and SEO goals aimed at doubling conversions from both paid and organic traffic
         </p>
-        <li>Designed and developed responsive layouts for the main website and ad landing page, created a child theme for advanced customization, and implemented dynamic content using Advanced Custom Fields (ACF)</li>
-        <li>Installed and configured Yoast SEO, migrated metadata, and optimized images for faster load times and improved rankings, targeting an increase in organic traffic from 21 to 100+ monthly users and a CTR rise from 1.44% to over 3%</li>
-        <li>Maintained tight communication and project leadership across client and marketing teams, ensuring alignment with strategic goals and stakeholders through detailed documentation</li>
+        <div style={{padding: '10px'}}>
+          <li>Designed and developed responsive layouts for the main website and ad landing page, created a child theme for advanced customization, and implemented dynamic content using Advanced Custom Fields (ACF)</li>
+          <li>Installed and configured Yoast SEO, migrated metadata, and optimized images for faster load times and improved rankings, targeting an increase in organic traffic from 21 to 100+ monthly users and a CTR rise from 1.44% to over 3%</li>
+          <li>Maintained tight communication and project leadership across client and marketing teams, ensuring alignment with strategic goals and stakeholders through detailed documentation</li>
+        </div>
       </>),
       tech: ["WordPress", "Advanced Custom Fields (ACF)", "Yoast SEO", "Figma"]
       
@@ -320,9 +322,11 @@ const Swiper = () => {
       caption: 'Freelance Web Development - 2020',
       description: (<>
       <p style={{marginBottom:'15px'}}>Developed and designed full stack website for Loyola Marymount University's dance team, Radix, to grow the on campus dance community</p>
-      <li>Increased dance event attendence by about 10%</li>
-      <li>Increased dance team try-out attendence by about 20%</li>
-      <li>Designed using Figma, coded using React, and built backend database using Google Firebase</li>
+      <div style={{padding: '10px'}}>
+        <li>Increased dance event attendence by about 10%</li>
+        <li>Increased dance team try-out attendence by about 20%</li>
+        <li>Designed using Figma, coded using React, and built backend database using Google Firebase</li>
+      </div>
       
       </>),
       tech: ["React", "Youtube API", "Google Firebase", "Node", "Figma"]
