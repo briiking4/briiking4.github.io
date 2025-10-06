@@ -331,7 +331,6 @@ const Swiper = () => {
       
       </>),
       tech: ["AWS S3","AWS CloudFront", "AWS DynamoDB", "AWS Lambda", "AWS API GAteway", "HTML/CSS", "Figma"]
-      
     },
     {
       id: 4,
@@ -365,16 +364,16 @@ const Swiper = () => {
     //   </>),
     //   tech: ["Figma", "User interviews", "Start-up"]    
     // },
-    // {
-    //   id: 5,
-    //   title: 'Popular Media & the African American Experience',
-    //   cover: thisisa,
-    //   link: thisisapaper,
-    //   caption: 'Media Research Symposium',
-    //   description: (<>Presented media research at Loyola Marymount's Research Symposium. This paper highlights Black struggle in America through the work of the artist Donald Glover (Childish Gambino). One of the most impactful pieces of 2018, the music video for "This is America", addresses the Black experience through powerful metaphors and symbolism. By releasing the viral video on YouTube, Gambino demonstrated the power of social media to spark meaningful conversations about the contrast between popular media’s perception of Black culture and the realities of systematic violence and discrimination faced by African-Americans.</>) ,
-    //   tech: ["Culture and social media research"]
+    {
+      id: 5,
+      title: 'Popular Media & the African American Experience',
+      cover: thisisa,
+      link: thisisapaper,
+      caption: 'Media Research Symposium',
+      description: (<>Presented media research at Loyola Marymount's Research Symposium. This paper highlights Black struggle in America through the work of the artist Donald Glover (Childish Gambino). One of the most impactful pieces of 2018, the music video for "This is America", addresses the Black experience through powerful metaphors and symbolism. By releasing the viral video on YouTube, Gambino demonstrated the power of social media to spark meaningful conversations about the contrast between popular media’s perception of Black culture and the realities of systematic violence and discrimination faced by African-Americans.</>) ,
+      tech: ["Culture and social media research"]
  
-    // },
+    },
   ];
 
   function showSkills(list, type) {
