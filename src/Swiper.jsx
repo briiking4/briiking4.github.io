@@ -36,6 +36,8 @@ import figmaLogo from "./assets/figma-logo.png";
 import agileLogo from "./assets/agile-logo.png";
 import dovetailLogo from "./assets/dovetail-logo.png";
 import jiraLogo from "./assets/jira-logo.svg";
+import cloudResume from "./assets/cloud-resume.png";
+
 
 import auxmod_logo from "./assets/auxmod_logo.svg";
 import graze from "./assets/Graze.png";
@@ -316,6 +318,23 @@ const Swiper = () => {
     },
     {
       id: 3,
+      title: 'AWS Cloud Resume Challenge',
+      cover: cloudResume ,
+      link: 'https://medium.com/@briananking/aws-cloud-resume-website-3c5cad83ebff',
+      caption: '2021',
+      description: (<>
+      <p style={{marginBottom:'15px'}}>Deployed HTML/CSS resume website on the cloud using AWS cloud services</p>
+      <div style={{padding: '10px'}}>
+        <li>Stored web content on AWS S3 and utilized AWS CloudFront and Route53 for DNS</li>
+        <li>Built backend API using AWS DynamoDB database, AWS Lambda to create function in Python, and integrated with AWS API Gateway</li>
+      </div>
+      
+      </>),
+      tech: ["AWS S3","AWS CloudFront", "AWS DynamoDB", "AWS Lambda", "AWS API GAteway", "HTML/CSS", "Figma"]
+      
+    },
+    {
+      id: 4,
       title: 'Radix Dance Team Website',
       cover: radixLogo,
       link: 'https://radix-9544c.firebaseapp.com/',
@@ -330,7 +349,6 @@ const Swiper = () => {
       
       </>),
       tech: ["React", "Youtube API", "Google Firebase", "Node", "Figma"]
-      
     },
     // {
     //   id: 4,
