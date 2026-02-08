@@ -37,7 +37,7 @@ import agileLogo from "./assets/agile-logo.png";
 import dovetailLogo from "./assets/dovetail-logo.png";
 import jiraLogo from "./assets/jira-logo.svg";
 import cloudResume from "./assets/cloud-resume.png";
-
+import ytm from "./assets/ytm_logo.png";
 
 import auxmod_logo from "./assets/auxmod_logo.svg";
 import graze from "./assets/Graze.png";
@@ -263,7 +263,7 @@ const Swiper = () => {
       cover: auxmod_logo,
       link: 'https://auxmod.netlify.app/',
       video_link: 'https://www.canva.com/design/DAGxRnqtxCA/ZSPEOm79vuSUlhAuBYQY9Q/watch?utm_content=DAGxRnqtxCA&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hfa2654f02e',
-      caption: 'Web Application - 2024',
+      caption: 'Web Application (Full stack) - 2024',
       description: (<>
               <p style={{fontWeight:'bold'}}>
                       What is it?
@@ -299,6 +299,24 @@ const Swiper = () => {
     },
     {
       id: 2,
+      title: 'Yours Truly, Mel',
+      cover: ytm,
+      link: "https://yourstrulymel.vercel.app",
+      caption: 'Website (Full Stack) - 2026',
+      description: (<>
+        <p style={{marginBottom:'15px'}}>
+        Built an AI-powered recommendation aggregation platform that extracts and surfaces the most-recommended curly hair products from Reddit threads, solving the problem of fragmented, time-consuming product research for natural hair care.</p>
+        <div style={{padding: '10px'}}>
+          <li>Developed a custom NLP API using machine learning segmentation and Levenshtein distance fuzzy matching to parse informal Reddit conversations and consolidate duplicate product mentions across typos, abbreviations, and varied phrasings</li>
+          <li>Launched MVP in under a week using Next.js and Node.js, validating product-market fit with a focused niche before planned expansion into broader cosmetic and beauty categories</li>
+          <li>Designed responsive front-end website in Figma and executed design in Next.js with MUI</li>
+        </div>
+      </>),
+      tech: ["AI-native", "Next.js", "Node.js", "Natural Language Processing", "API Development", "MUI", "Figma", "Google Analytics"]
+      
+    },
+    {
+      id: 3,
       title: 'Spectrum Behavioral Care Website',
       cover: sbc,
       link: "https://spectrumbehavioralcare.com",
@@ -317,7 +335,7 @@ const Swiper = () => {
       
     },
     {
-      id: 3,
+      id: 4,
       title: 'AWS Cloud Resume Challenge',
       cover: cloudResume ,
       link: 'https://medium.com/@briananking/aws-cloud-resume-website-3c5cad83ebff',
@@ -333,7 +351,7 @@ const Swiper = () => {
       tech: ["AWS S3","AWS CloudFront", "AWS DynamoDB", "AWS Lambda", "AWS API GAteway", "HTML/CSS", "Figma"]
     },
     {
-      id: 4,
+      id: 5,
       title: 'Radix Dance Team Website',
       cover: radixLogo,
       link: 'https://radix-9544c.firebaseapp.com/',
@@ -365,7 +383,7 @@ const Swiper = () => {
     //   tech: ["Figma", "User interviews", "Start-up"]    
     // },
     {
-      id: 5,
+      id: 6,
       title: 'Popular Media & the African American Experience',
       cover: thisisa,
       link: thisisapaper,
