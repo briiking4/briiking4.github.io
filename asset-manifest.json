@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.e7e0da8f.css",
-    "main.js": "/static/js/main.7f2f7e15.js",
+    "main.js": "/static/js/main.76726bbe.js",
     "static/js/453.2c10b5af.chunk.js": "/static/js/453.2c10b5af.chunk.js",
     "static/media/Graze.pdf": "/static/media/Graze.3ff9a69517f218af5337.pdf",
+    "static/media/ytm_logo.png": "/static/media/ytm_logo.a39fea8081315075ab5f.png",
     "static/media/profile-pic.png": "/static/media/profile-pic.b7b6adfc859beb54a8a0.png",
     "static/media/cloud-resume.png": "/static/media/cloud-resume.7917574057674681346e.png",
     "static/media/azure-logo.png": "/static/media/azure-logo.9b642f842eaa56643ea4.png",
@@ -26,11 +27,11 @@
     "static/media/jira-logo.svg": "/static/media/jira-logo.1b79d9d02350c124716652a3e72b8376.svg",
     "static/media/auxmod_logo.svg": "/static/media/auxmod_logo.4fb44116b23c63fc52a06a3cf7aacd35.svg",
     "main.e7e0da8f.css.map": "/static/css/main.e7e0da8f.css.map",
-    "main.7f2f7e15.js.map": "/static/js/main.7f2f7e15.js.map",
+    "main.76726bbe.js.map": "/static/js/main.76726bbe.js.map",
     "453.2c10b5af.chunk.js.map": "/static/js/453.2c10b5af.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e7e0da8f.css",
-    "static/js/main.7f2f7e15.js"
+    "static/js/main.76726bbe.js"
   ]
 }
